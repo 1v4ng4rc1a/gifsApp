@@ -16,4 +16,12 @@ export class SidebarComponent {
 
   }
 
+  buscar(query : string){
+
+    this.gifsService.buscarGifs(query);
+
+    console.log("query", query);
+
+  }
+
 }
